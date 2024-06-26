@@ -1,0 +1,58 @@
+
+*{
+    font-family: 'poppins';
+    
+}
+
+body{
+    background-color: navy;
+}
+.loginHead{
+    text-align: center;
+    background-color: white;
+}
+.card{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    height: 380px;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+input{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    border: 2px solid black;
+}
+
+button{
+    font-weight: bold;
+    background-color: navy;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 200px;
+    
+}
+
+
+.email_label{
+   
+   display: flex;
+   align-items: start;
+}
+
+.navbar li{
+    list-style-type: none;
+}

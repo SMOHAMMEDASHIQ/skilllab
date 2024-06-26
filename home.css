@@ -1,0 +1,49 @@
+
+*{
+    flex-wrap: wrap;
+}
+
+
+body{
+    font-family: 'poppins';
+    background: url('https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    flex-wrap: wrap;
+}
+.navbar li{
+    list-style-type: none;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.myContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 30px;
+    
+}
+
+
+.aboutUs{
+    background-color: blue;
+}
